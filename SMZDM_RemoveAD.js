@@ -12,7 +12,7 @@ if (obj.data) {
       element.end_date = "2040-01-01 23:59:59";
       element.unix_start_date = "2208960000"; // 什么值得买 Unix 时间戳 2040-01-01 00:00:00
       element.unix_end_date = "2209046399"; // 什么值得买 Unix 时间戳 2040-01-01 23:59:59
-      element.is_show_ad = "0";
+        element.is_show_ad = "0";
     });
   } else if (url.includes("baike-api.smzdm.com/home_v3/list")) {
     // 什么值得买-百科广告
