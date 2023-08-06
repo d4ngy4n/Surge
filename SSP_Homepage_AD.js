@@ -5,7 +5,7 @@ if (obj.data) {
   // 少数派-开屏广告
   if (url.includes("ios.sspai.com/api/v3/combo/recommend")) {
     obj.data.forEach((element) => {
-      element.description = "Mojit0";
+      element.title = "Mojit0";
     });
   } 
 }
