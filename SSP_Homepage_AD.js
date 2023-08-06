@@ -8,7 +8,7 @@ if (obj.data) {
   // 少数派-开屏广告
   if(url.include("ios.sspai.com/api/v3/combo/recommend/page/get?page=1&page_size=50")) {
    obj.data.forEach((element) => {
-      if(element.corner.id != 0) {
+      if(element.nickname != "少数派商店") {
         data.push(element)
       }
     })
